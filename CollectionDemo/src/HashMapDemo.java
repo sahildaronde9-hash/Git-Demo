@@ -3,7 +3,6 @@ import java.util.TreeMap;
 
 public class HashMapDemo {
     public static void main(String[] args) {
-
         HashMap <Integer, String> map = new HashMap<>();
         map.put(20, "Rohit");
         map.put(50, "Nayan");
@@ -15,5 +14,6 @@ public class HashMapDemo {
 
         TreeMap <Integer, String> treeMap = new TreeMap<>(map);
         System.out.println(treeMap);
+
     }
 }
